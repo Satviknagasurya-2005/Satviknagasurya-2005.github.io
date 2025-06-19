@@ -1,6 +1,81 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(230, 225, 225);
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
-    background-color: black;
+    background-color: rgb(88, 88, 254);
+    padding: 15px;
     color: white;
     text-align: center;
-    padding: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    margin: 1em;
+}
+main{
+    margin-top: 8px;
+}
+img{
+    margin:1em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+section{
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+} 
+.main{
+    display: flex;
+    width: 100%;
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse:collapse;
+}
+th, td{
+    border: 1px solid black;
+}
+.sec2 ul {
+    list-style-type: decimal;
+    margin-left: 1em;
+}
+form{
+    margin: 3em;
+}
+label{
+    display: block;
+}
+#text{
+    width: 100%;
+    height: 30px;
+}
+input[type="submit"]{
+    background-color: rgb(4, 37, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 2em;
+    width: 100%;
+    height: 3em;
+    cursor: pointer;
+}
+ input[type="submit"]:hover{
+            background-color: rgb(4, 4, 241);
+        }
+
+#desc{
+    width: 100%;
 }
